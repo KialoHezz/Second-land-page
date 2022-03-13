@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landingind page</title>
     <link rel="stylesheet" href="mains.css" />
+    <!-- designed using editor.md -->
+    <link rel="stylesheet" href="editormd/css/editormd.css" />
     <!-- bootstrap 5 -->
     <link rel=”stylesheet”
     href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow”
@@ -150,19 +152,20 @@
         <div class="form">
           <div class="name-info">
             <div class="first-input">
-              <input type="text" name="name" placeholder="Name" />
+              <input type="text" id="nameId" name="name" placeholder="Name" />
             </div>
             <div class="second-input">
-              <input type="text" name="Email" placeholder="Email" />
+              <input type="text" name="Email" id="emailId" placeholder="Email" />
             </div>
           </div>
           <div class="text-area">
             <input
               type="textarea"
               name="textarea"
-              placeholder="Your Message here..."
+              id="textArea" placeholder="Your Message here..."
             />
           </div>
+          <button class="submit-btn" type="submit">submit</button>
         </div>
       </div>
     </section>

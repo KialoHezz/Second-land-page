@@ -240,6 +240,12 @@ img .image-size {
   margin-top: 2rem;
 }
 
+.submit-btn{
+  height: 35px;
+  width: 50px;
+  cursor: pointer;
+}
+
 .container-section {
   text-align: center;
   margin-top: 2rem;

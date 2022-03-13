@@ -18,3 +18,17 @@ $(document).ready(function () {
     $(".third-toggle").toggle();
   });
 });
+
+
+//init contact-form
+const name = document.getElementById("nameId").value;
+const email = document.getElementById("emailId").valu;
+const userMessage = document.getElementById("textArea").value;
+
+form.addEventListener("submit", validate =>{
+    
+})
+
+//function to output msg to user
+
+function 
