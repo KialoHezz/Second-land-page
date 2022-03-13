@@ -2,8 +2,8 @@
 
 # Author:
 Hezron Ngoma
-# Descrption Of Project
-#BDD
+##### Descrption Of Project
+### BDD
 There are different section to showcase such as:
 1. home page.
 It has Logo,Welcome and Description
@@ -29,6 +29,6 @@ Its a platform where we can link up with
 8. Footer of Delani Studio.
 
 ### Licence && Copyright.
-		Copyright (c) 2019 Hezron Ngoma
-
 Permission is hereby granted fully.The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software
+
+		Copyright (c) 2022 Hezron Ngoma

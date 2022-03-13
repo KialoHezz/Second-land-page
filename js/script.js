@@ -31,4 +31,6 @@ form.addEventListener("submit", validate =>{
 
 //function to output msg to user
 
-function 
+function output(){
+    document.querySelector().innerText = name  "we have received your message. Thank you fro reaching out to us. **";
+}
