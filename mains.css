@@ -208,7 +208,7 @@ img .image-size {
 
 /*contact us section*/
 .contact-us-container {
-  background-image: url(assets/backgrounds/c_image.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 255, 0.137)),url(assets/backgrounds/c_image.jpg);
   height: 50vh;
   margin-top: 2rem;
 }
@@ -231,26 +231,30 @@ img .image-size {
   justify-content: space-between;
 }
 
-.first-input input {
+input {
   height: 2rem;
   width: 15rem;
-}
-
-.second-input input {
-  height: 2rem;
-  width: 15rem;
+  background-color: transparent;
+  color: #fff;
 }
 
 .text-area input {
-  width: 67vh;
-  height: 25vh;
+  width: 638px;
+  height: 150px;
   margin-top: 2rem;
 }
 
 .submit-btn {
-  height: 35px;
-  width: 50px;
+  margin-top: 5px;
+  width: 100px;
   cursor: pointer;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.submit-btn:hover{
+  background: linear-gradient(rgba(0,0,0.1), rgba(0, 128, 0, 0.514));
+  color: #fff;
 }
 
 .container-section {
