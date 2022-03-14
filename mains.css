@@ -196,9 +196,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .portfolio-card {
   position: relative;
 }
+
 .description {
   position: absolute;
   top: 0;
@@ -223,10 +225,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* .portfolio-card:hover .description {
+.portfolio-card:hover .description {
   opacity: 2;
   background-color: rgba(0, 0, 0, 0.8);
-} */
+}
 
 img .image-size {
   width: 3rem;

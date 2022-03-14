@@ -6,7 +6,7 @@ const userMessage = document.getElementById("textArea").value;
 //first-toggle
 $(document).ready(function () {
   $(".design").click(function () {
-    $(".first-toggle").toggle();
+    $(".first-toggle").toggle(slow);
     $(".card-header1").toggle();
   });
 });
@@ -14,7 +14,7 @@ $(document).ready(function () {
 //second-toggle
 $(document).ready(function () {
   $(".development").click(function () {
-    $(".second-toggle").toggle();
+    $(".second-toggle").toggle(slow);
     $(".card-header2").toggle();
   });
 });
@@ -22,7 +22,7 @@ $(document).ready(function () {
 //third toggle
 $(document).ready(function () {
   $(".products").click(function () {
-    $(".third-toggle").toggle();
+    $(".third-toggle").toggle(slow);
     $(".card-header3").toggle();
   });
 });
