@@ -21,7 +21,7 @@ body {
 .container {
   width: 100%;
   height: 80vh;
-  background-image: url(IP3/assets/backgrounds/h_img.jpg);
+  background-image: url(assets/backgrounds/h_img.jpg);
   text-align: center;
 }
 .logo .img-logo {
@@ -80,7 +80,7 @@ body {
 
 /*service section*/
 .container-service {
-  background-image: url(IP3/assets/backgrounds/s_image.jpg);
+  background-image: url(assets/backgrounds/s_image.jpg);
   height: 50vh;
   text-align: center;
   margin-top: 2rem;
@@ -201,7 +201,7 @@ img .image-size {
 
 /*contact us section*/
 .contact-us-container {
-  background-image: url(IP3/assets/backgrounds/c_image.jpg);
+  background-image: url(assets/backgrounds/c_image.jpg);
   height: 50vh;
   margin-top: 2rem;
 }

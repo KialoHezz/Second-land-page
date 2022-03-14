@@ -33,7 +33,7 @@ $(document).ready(function () {
   $(".submit-btn").click(function () {
     $(".first-input").toggle(300);
     alert(
-      `${username} we have received your message. Thank you fro reaching out to us`
+      `${username} we have received your message. Thank you for reaching out to us`
     );
   });
 });
