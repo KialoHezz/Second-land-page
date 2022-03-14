@@ -1,3 +1,8 @@
+//init contact-form
+const username = document.getElementById("nameId").value;
+const email = document.getElementById("emailId").value;
+const userMessage = document.getElementById("textArea").value;
+
 //first-toggle
 $(document).ready(function () {
   $(".design").click(function () {
@@ -19,18 +24,16 @@ $(document).ready(function () {
   });
 });
 
+// form.addEventListener("submit", validate =>{
 
-//init contact-form
-const name = document.getElementById("nameId").value;
-const email = document.getElementById("emailId").valu;
-const userMessage = document.getElementById("textArea").value;
-
-form.addEventListener("submit", validate =>{
-    
-})
+// })
 
 //function to output msg to user
-
-function output(){
-    document.querySelector().innerText = name  "we have received your message. Thank you fro reaching out to us. **";
-}
+$(document).ready(function () {
+  $(".submit-btn").click(function () {
+    $(".first-input").toggle(300);
+    alert(
+      `${username} we have received your message. Thank you fro reaching out to us`
+    );
+  });
+});
