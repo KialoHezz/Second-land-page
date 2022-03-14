@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landingind page</title>
-    <link rel="stylesheet" href="mains.css" />
     <!-- designed using editor.md -->
     <link rel="stylesheet" href="editormd/css/editormd.css" />
     <!-- bootstrap 5 -->
     <link rel=”stylesheet”
-    href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow”
+    href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”
+    rel=”nofollow”
     integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I”
     crossorigin=”anonymous”>
+    <link rel="stylesheet" href="mains.css" />
   </head>
   <body>
     <section>
       <div class="container">
         <div class="logo">
-          <img class="img-logo" src="IP3/assets/logo/logo.png" alt="logo" />
+          <img class="img-logo" src="assets/logo/logo.png" alt="logo" />
         </div>
         <div class="container-welcome-other-info">
           <div class="welcome">
@@ -31,7 +32,7 @@
             <p>Amazing people are making amezing Design a fun environment</p>
           </div>
           <div class="mouse-click-img">
-            <img src="IP3/assets/mouse_click.png" alt="mouse_click_image" />
+            <img src="assets/mouse_click.png" alt="mouse_click_image" />
           </div>
         </div>
       </div>
@@ -89,8 +90,10 @@
         </div>
         <div class="cointainer-development">
           <div class="design">
-            <img src="IP3/assets/services_icons/design_icon.png" alt="Design" />
-            <h3 class="design-title">Design</h3>
+            <div class="card-header1">
+              <img src="assets/services_icons/design_icon.png" alt="Design" />
+              <h3 class="design-title">Design</h3>
+            </div>
             <span
               ><p class="first-toggle">
                 We design an awesome stuff which attracts your sight even when
@@ -100,11 +103,10 @@
             >
           </div>
           <div class="development">
-            <img
-              src="IP3/assets/services_icons/dev_icon.png"
-              alt="development"
-            />
-            <h3 class="development-title">development</h3>
+            <div class="card-header2">
+              <img src="assets/services_icons/dev_icon.png" alt="development" />
+              <h3 class="development-title">development</h3>
+            </div>
             <div class="second-toggle">
               <p>
                 IN the sector of development we build anything related with
@@ -114,11 +116,13 @@
             </div>
           </div>
           <div class="products">
-            <img
-              src="IP3/assets/services_icons/product_icon.png"
-              alt="products"
-            />
-            <h3 class="products-title">products</h3>
+            <div class="card-header3">
+              <img
+                src="assets/services_icons/product_icon.png"
+                alt="products"
+              />
+              <h3 class="products-title">products</h3>
+            </div>
             <div class="third-toggle">
               For products we delivery well quality and quantity to you,
               products which give you great service when you use them
@@ -133,14 +137,54 @@
           <h3 class="portfolio-title">portfolio</h3>
         </div>
         <div class="images-portfolio">
-          <img class="image-size" src="IP3/assets/portfolio/work4.jpg" alt="" />
-          <img class="image-size" src="IP3/assets/portfolio/work3.jpg" alt="" />
-          <img class="image-size" src="IP3/assets/portfolio/work2.jpg" alt="" />
-          <img class="image-size" src="IP3/assets/portfolio/work1.jpg" alt="" />
-          <img class="image-size" src="IP3/assets/portfolio/work5.jpg" alt="" />
-          <img class="image-size" src="IP3/assets/portfolio/work6.jpg" alt="" />
-          <img class="image-size" src="IP3/assets/portfolio/work7.jpg" alt="" />
-          <img class="image-size" src="IP3/assets/portfolio/work8.jpg" alt="" />
+          <div class="portfolio-card">
+            <img class="image-size" src="assets/portfolio/work4.jpg" alt="" />
+            <div class="description">
+              <p class="text">Company Portfolio</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <img class="image-size" src="assets/portfolio/work3.jpg" alt="" />
+            <div class="description">
+              <p class="text">Company Portfolio</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <img class="image-size" src="assets/portfolio/work2.jpg" alt="" />
+            <div class="description">
+              <p class="text">Company Portfolio</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <img class="image-size" src="assets/portfolio/work1.jpg" alt="" />
+            <div class="description">
+              <p class="text">Company Portfolio</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <img class="image-size" src="assets/portfolio/work5.jpg" alt="" />
+            <div class="description">
+              <p class="text">Company Portfolio</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <img class="image-size" src="assets/portfolio/work6.jpg" alt="" />
+            <div class="description">
+              <p class="text">Company Portfolio</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <img class="image-size" src="assets/portfolio/work7.jpg" alt="" />
+            <div class="description">
+              <p class="text">Company Portfolio</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <img class="image-size" src="assets/portfolio/work8.jpg" alt="" />
+            <div class="description">
+              <p class="text">Company Portfolio</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -235,6 +279,8 @@
         <p class="year">2019</p>
       </div>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <script src="js/script.js"></script>
   </body>
 </html>
