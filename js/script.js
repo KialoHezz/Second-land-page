@@ -25,9 +25,6 @@ $(document).ready(function () {
     $(".third-toggle").toggle();
     $(".card-header3").toggle();
   });
-
-  // ON HOVER
-
 });
 
 // form.addEventListener("submit", validate =>{
@@ -42,4 +39,9 @@ $(document).ready(function () {
       `${username} we have received your message. Thank you for reaching out to us`
     );
   });
+});
+
+//portfolio hover
+$(".image-size").hover(function () {
+  $(this).css("background-color", "white");
 });
