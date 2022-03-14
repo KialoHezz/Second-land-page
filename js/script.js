@@ -7,6 +7,7 @@ const userMessage = document.getElementById("textArea").value;
 $(document).ready(function () {
   $(".design").click(function () {
     $(".first-toggle").toggle();
+    $(".card-header").toggle();
   });
 });
 
@@ -22,6 +23,9 @@ $(document).ready(function () {
   $(".products").click(function () {
     $(".third-toggle").toggle();
   });
+
+  // ON HOVER
+  
 });
 
 // form.addEventListener("submit", validate =>{
