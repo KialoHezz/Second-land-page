@@ -196,6 +196,37 @@ body {
   align-items: center;
   justify-content: center;
 }
+.portfolio-card {
+  position: relative;
+}
+.description {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  /* opacity: 0; */
+}
+
+.text {
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  font-weight: bold;
+  border: 2px solid #fff;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .portfolio-card:hover .description {
+  opacity: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+} */
 
 img .image-size {
   width: 3rem;
@@ -208,7 +239,8 @@ img .image-size {
 
 /*contact us section*/
 .contact-us-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 255, 0.137)),url(assets/backgrounds/c_image.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 255, 0.137)),
+    url(assets/backgrounds/c_image.jpg);
   height: 50vh;
   margin-top: 2rem;
 }
@@ -252,8 +284,8 @@ input {
   margin-top: 50px;
 }
 
-.submit-btn:hover{
-  background: linear-gradient(rgba(0,0,0.1), rgba(0, 128, 0, 0.514));
+.submit-btn:hover {
+  background: linear-gradient(rgba(0, 0, 0.1), rgba(0, 128, 0, 0.514));
   color: #fff;
 }
 
@@ -279,4 +311,3 @@ p .year {
 }
 
 /*REsponsive*/
-

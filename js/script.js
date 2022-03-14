@@ -42,6 +42,10 @@ $(document).ready(function () {
 });
 
 //portfolio hover
-$(".image-size").hover(function () {
-  $(this).css("background-color", "white");
-});
+$(".portfolio-card").hover(function () {
+  $('.description',this).show(600)
+},
+function(){
+  $('.description').hide()
+}
+);
